@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(49, 54, 54);
+}
+
+#drum-machine {
+    width: 30%;
+    height: 40%;
+    background-color: maroon;
+    display: flex;
+    border: 5px solid navajowhite;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    width: 90%;
+    margin: 5%;
+    display: flexbox;
+    justify-content: center;
+}
