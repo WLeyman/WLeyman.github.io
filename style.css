@@ -8,12 +8,13 @@ body {
 
 #drum-machine {
     width: 30%;
-    height: 40%;
+    height: 40vw;
     background-color: maroon;
     display: flex;
     border: 5px solid navajowhite;
     justify-content: center;
     align-items: center;
+    margin: auto
 }
 
 #display {
