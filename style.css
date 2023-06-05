@@ -10,16 +10,27 @@ body {
     width: 30%;
     height: 40vw;
     background-color: maroon;
-    display: flex;
     border: 5px solid navajowhite;
-    justify-content: center;
-    align-items: center;
     margin: auto
 }
 
 #display {
+    background-color: grey;
     width: 90%;
-    margin: 5%;
+    height: 2rem;
     display: flexbox;
-    justify-content: center;
+    margin: 10px auto;
+}
+
+#button-case {
+    background-color: grey;
+    width: 90%;
+    height: 30%;
+    display: grid;
+    gap: 20px;
+}
+
+.drum-pad {
+    height: 2rem;
+    width: 2rem;
 }
