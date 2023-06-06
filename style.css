@@ -1,36 +1,29 @@
-* {
+body {
+    background-color: grey;
     box-sizing: border-box;
 }
 
-body {
-    background-color: rgb(49, 54, 54);
+
+#calculator {
+    height: 40vh;
+    width: 30vh;
+    background-color: navy;
+    margin: auto;
+    padding: 2px;
 }
 
-#drum-machine {
-    width: 30%;
-    height: 40vw;
-    background-color: maroon;
-    border: 5px solid navajowhite;
-    margin: auto
+#command-display {
+    color: goldenrod;
+    text-align: right;
 }
 
-#display {
-    background-color: grey;
-    width: 90%;
-    height: 2rem;
-    display: flexbox;
-    margin: 10px auto;
+#main-display {
+    color: white;
+    text-align: right;
 }
 
-#button-case {
-    background-color: grey;
-    width: 90%;
-    height: 30%;
-    display: grid;
-    gap: 20px;
-}
-
-.drum-pad {
-    height: 2rem;
-    width: 2rem;
+.button {
+    border: solid 1px black;
+    width: 23%;
+    height: 25%;
 }
